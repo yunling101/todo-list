@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" width="900" height="600">
+  <!-- 背景 -->
+  <rect width="900" height="600" fill="#f8fafc"/>
+  
+  <!-- 标题 -->
+  <text x="450" y="45" font-family="Arial, sans-serif" font-size="28" font-weight="bold" text-anchor="middle" fill="#1e293b">团队协作流程与职责划分</text>
+  
+  <!-- 虚线分隔 -->
+  <line x1="450" y1="70" x2="450" y2="550" stroke="#cbd5e1" stroke-width="2" stroke-dasharray="8,4"/>
+  
+  <!-- 左侧：团队成员 -->
+  <text x="225" y="90" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#334155">团队成员</text>
+  
+  <!-- XiaMiClaw -->
+  <rect x="100" y="120" width="250" height="80" rx="12" fill="#3b82f6" opacity="0.15" stroke="#3b82f6" stroke-width="2"/>
+  <text x="225" y="150" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#1e40af">🐾 XiaMiClaw</text>
+  <text x="225" y="175" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#475569">技术主管</text>
+  <text x="225" y="192" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#64748b">任务协调 · 代码审核 · 提交</text>
+  
+  <!-- Backend -->
+  <rect x="100" y="220" width="250" height="70" rx="12" fill="#22c55e" opacity="0.15" stroke="#22c55e" stroke-width="2"/>
+  <text x="225" y="250" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#166534">@XiaMiClaw800</text>
+  <text x="225" y="272" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#475569">后端开发 (Go + Gin)</text>
+  
+  <!-- Frontend -->
+  <rect x="100" y="310" width="250" height="70" rx="12" fill="#f59e0b" opacity="0.15" stroke="#f59e0b" stroke-width="2"/>
+  <text x="225" y="340" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#b45309">@XiaMiClaw801</text>
+  <text x="225" y="362" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#475569">前端开发 (React + Vite)</text>
+  
+  <!-- Testing -->
+  <rect x="100" y="400" width="250" height="70" rx="12" fill="#ef4444" opacity="0.15" stroke="#ef4444" stroke-width="2"/>
+  <text x="225" y="430" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#b91c1c">@XiaMiClaw802</text>
+  <text x="225" y="452" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#475569">测试工程师</text>
+  
+  <!-- 右侧：流程 -->
+  <text x="675" y="90" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#334155">协作流程</text>
+  
+  <!-- 流程步骤 -->
+  <!-- 1. 任务分配 -->
+  <rect x="550" y="120" width="250" height="60" rx="10" fill="#e0f2fe" stroke="#0284c7" stroke-width="2"/>
+  <text x="675" y="152" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#0369a1">1. 任务分配</text>
+  <text x="675" y="170" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#475569">XiaMiClaw 拆解任务</text>
+  
+  <!-- 箭头 -->
+  <path d="M675 185 L675 205" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- 2. 开发 -->
+  <rect x="550" y="210" width="250" height="60" rx="10" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+  <text x="675" y="242" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#166534">2. 开发实现</text>
+  <text x="675" y="260" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#475569">Backend / Frontend 编写代码</text>
+  
+  <!-- 箭头 -->
+  <path d="M675 275 L675 295" stroke="#94a3b8" stroke-width="2"/>
+  
+  <!-- 3. 测试 -->
+  <rect x="550" y="300" width="250" height="60" rx="10" fill="#fee2e2" stroke="#dc2626" stroke-width="2"/>
+  <text x="675" y="332" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#b91c1c">3. 测试验证</text>
+  <text x="675" y="350" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#475569">Testing 执行测试</text>
+  
+  <!-- 箭头 -->
+  <path d="M675 365 L675 385" stroke="#94a3b8" stroke-width="2"/>
+  
+  <!-- 4. 审核 -->
+  <rect x="550" y="390" width="250" height="60" rx="10" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+  <text x="675" y="422" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#b45309">4. 代码审核</text>
+  <text x="675" y="440" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#475569">XiaMiClaw 审核代码</text>
+  
+  <!-- 箭头 -->
+  <path d="M675 455 L675 475" stroke="#94a3b8" stroke-width="2"/>
+  
+  <!-- 5. 提交 -->
+  <rect x="550" y="480" width="250" height="60" rx="10" fill="#f3e8ff" stroke="#9333ea" stroke-width="2"/>
+  <text x="675" y="512" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#7e22ce">5. 提交发布</text>
+  <text x="675" y="530" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#475569">XiaMiClaw 统一提交</text>
+  
+  <!-- 底部说明 -->
+  <rect x="50" y="540" width="800" height="40" rx="8" fill="#f1f5f9" stroke="#cbd5e1"/>
+  <text x="450" y="565" font-family="Arial, sans-serif" font-size="13" text-anchor="middle" fill="#475569">
+    <tspan fill="#3b82f6">XiaMiClaw</tspan> 负责整体协调与质量把控 · 每日启动时更新 TASKS.md 任务状态
+  </text>
+  
+  <!-- 定义箭头 -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#94a3b8"/>
+    </marker>
+  </defs>
+</svg>
